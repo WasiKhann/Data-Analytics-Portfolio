@@ -1,32 +1,32 @@
 # Data Analytics Portfolio
 
-Hello! I'm Wasi Khan, a recent graduate with a passion for uncovering insights from data. This repository showcases my academic projects, demonstrating my skills in data wrangling, statistical analysis, and creating impactful business intelligence dashboards.
+Hello! I'm Wasi Khan, a recent graduate with a passion for transforming raw data into actionable business intelligence. This repository showcases my ability to manage the full data analysis lifecycle: from cleaning and preparation in Python to developing insightful dashboards in Power BI that solve key business problems.
 
 ## Skills
 
 * **Programming & Libraries:** Python (Pandas, NumPy, Matplotlib, Seaborn)
-* **Data Analysis:** Exploratory Data Analysis (EDA), Data Wrangling, Statistical Testing
 * **BI Tools:** Microsoft Power BI
+* **Data Analysis:** Exploratory Data Analysis (EDA), Data Wrangling, Statistical Testing, Trend & Root Cause Analysis
 * **Data Cleaning & Prep:** Data Imputation, Transformation, Preprocessing
 
 ---
 
 ## Projects
 
-Click on any project title to see the detailed analysis, datasets, and interactive dashboards.
+Click on any project title to see the detailed analysis, methodology, datasets, and final deliverables.
 
-### 1. [Data Wrangling and Analysis in Python](./Data-Wrangling-Project)
-A project focused on the essential data preparation pipeline. Responsibilities included cleaning a sales dataset with missing values, performing data imputation, conducting normality tests for statistical validity, and preparing the data for further analysis.
+### 1. [Riyadh Short-Term Rental Occupancy Analysis](./Riyadh-Rental-Analysis)
+An analysis to solve inconsistent revenue for a rental management company by tackling weekday occupancy rates that were consistently below 50%. My approach was to segment data by district, property type, and booking channel to identify specific drivers of low performance and recommend targeted pricing and marketing strategies.
+* **Tools Used:** Power BI, Excel
+
+### 2. [E-commerce Order Cancellation Analysis](./Ecommerce-Cancellation-Analysis)
+A deep dive into a Pakistani e-commerce dataset to diagnose and provide solutions for a high order cancellation and refund rate (45.1%). I focused on identifying which product categories, payment methods, and time periods were most problematic to recommend precise operational improvements rather than broad, ineffective changes.
+* **Tools Used:** Power BI, Excel
+
+### 3. [Predictive Factors for Student Success](./Student-Success-Analysis)
+An analytical study to identify the key factors contributing to a high student dropout rate (31.93%). My logic was to move beyond surface-level numbers and test the statistical significance of various factors—like scholarships, parental education, and application mode—to provide actionable recommendations for improving student retention.
+* **Tools Used:** Power BI, Excel
+
+### 4. [Python Data Wrangling & Preparation](./Python-Data-Wrangling)
+A foundational project focused on the critical first step of any analysis: data preparation. This demonstrates the process of taking a raw, messy sales dataset and making it reliable for analysis by handling missing values and performing statistical validation.
 * **Tools Used:** Python, Jupyter Notebook, Pandas, NumPy
-
-### 2. [Used Car Sales Analysis (OLX)](./Activity-4-Used-Cars)
-Analyzed sales performance of used cars on OLX to provide clarity on optimal pricing. This project involved identifying sales trends for various brands, their sales volumes, and average selling prices over time.
-* **Tools Used:** Power BI, Excel
-
-### 3. [E-commerce Order Cancellation Analysis](./Activity-3-Ecommerce-Cancellations)
-A deep dive into a Pakistani e-commerce dataset to identify the root causes of a high rate of order cancellations (45.1%). The goal was to propose a data-driven strategy to minimize these occurrences and improve profitability.
-* **Tools Used:** Power BI, Excel
-
-### 4. [Student Success and Dropout Analysis](./Final-Exam-Student-Success)
-An analytical look into the factors influencing student success and a high dropout rate (31.93%). This project aimed to identify key determinants of academic outcomes to provide actionable recommendations for educational institutions.
-* **Tools Used:** Power BI, Excel
