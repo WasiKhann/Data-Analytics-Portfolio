@@ -51,9 +51,6 @@ The insights were visualized using a Power BI dashboard. Emphasis was placed on 
 
 The analysis revealed distinct patterns in weekday occupancy and revenue, highlighting opportunities for targeted interventions.
 
-*(Optional: If you have a comprehensive screenshot of your entire dashboard, you can place it here to give an overall view.)*
-### District-Wise Performance (Occupancy Trends)
-
 Analysis of weekday trends by district showed two distinct behaviors. Business-centric districts like **Al Olaya** and **Al Sulimaniyah** saw demand drop sharply on Thursday, marking the end of the workweek. In contrast, other districts like **Al Falah** and **Al Malqa** observed stable or rising Thursday demand, indicating a shift towards pre-weekend leisure traffic.
 
 ![Weekday Occupancy Trends by District](images/occupancy_trends_by_district.png)
@@ -66,11 +63,6 @@ Understanding the performance of each Online Travel Agency (OTA) channel is cruc
 ![Average Weekday Occupancy by OTA Channel](images/average_occupancy_by_ota_channel.png)
 *Bar chart displaying the average weekday occupancy percentage across various OTA channels.*
 
-### Property Type Performance & Weekday Behavior
-
-Different property types exhibited distinct weekday booking behaviors. Smaller, business-focused units (1BR and 2BR) generally saw lower occupancy towards the end of the workweek. Conversely, larger units like 3BRs and Chalets, which might underperform early in the week, often saw increased demand as the weekend approached, confirming their appeal for leisure and group stays.
-
-*(If you have a chart that specifically illustrates this general property type performance across weekdays, insert it here. Otherwise, the description is sufficient. Remember to update the filename and description below.)*
 ### Booking Channel (OTA) Effectiveness by Property Type
 
 This heatmap provides a granular view of how effectively each OTA platform performs for specific property types during weekdays, allowing for targeted channel optimization.
