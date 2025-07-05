@@ -8,7 +8,7 @@ The goal was to analyze sales performance by brand and over time to inform prici
 
 ## Key Findings & Dashboard
 
-![Dashboard](dashboard.jpg)
+![Dashboard](dashboard.png)
 
 * The analysis included 25,000 total sales listings.
 * The data showed significant variation in average price by brand, with brands like Range Rover and Porsche at the higher end.
