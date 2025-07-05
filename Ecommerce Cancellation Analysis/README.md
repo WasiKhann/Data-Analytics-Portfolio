@@ -1,25 +1,65 @@
-# E-commerce Order Cancellation and Refund Analysis
+# Pakistan E-commerce Performance Analysis
 
-This project analyzes order data from a Pakistani e-commerce company to identify the root causes behind a high rate of cancellations and refunds and propose targeted solutions.
+This repository contains a business intelligence analysis of a major Pakistani e-commerce company. The project dives into a large dataset of customer orders to identify the key drivers behind high rates of order cancellations and refunds, ultimately providing data-driven recommendations to enhance profitability and customer satisfaction.
 
-## Business Problem
-[cite_start]A significant portion of orders, 45.1%, were being canceled or refunded, which directly impacts profitability and customer trust[cite: 196]. My objective was to move beyond the top-line number and find specific, actionable drivers of this problem.
+---
 
-## My Analytical Approach
-I hypothesized that the issue was not uniform across the business. My analysis focused on segmenting the data to confirm this, specifically by:
-1.  **Time-Series Analysis:** To check for seasonality or event-driven spikes.
-2.  **Categorical Analysis:** To identify if specific product types were more problematic.
-3.  **Payment Method Analysis:** To see if the payment process contributed to cancellations.
+## 📝 Objective
 
-## Key Findings & Dashboard
-![Activity 3 Dashboard](https://i.imgur.com/uR0J48d.png)
+A Pakistani e-commerce company is experiencing a high rate of order cancellations and refunds, which is impacting profitability. The objective of this analysis is to dissect the order data to identify trends and root causes behind these issues. The goal is to propose a data-driven strategy to minimize these occurrences and evaluate the effectiveness of current sales and discount strategies.
 
-* [cite_start]**High Cancellation Rate:** Confirmed that canceled and refunded orders made up 45.1% of all statuses[cite: 196].
-* [cite_start]**Category-Specific Issues:** "Mobiles & Tablets" and "Men's Fashion" had disproportionately high cancellation rates, pointing towards issues with product expectations or quality control in these areas[cite: 200].
-* [cite_start]**Payment Method Impact:** Cash on Delivery (COD) showed a strong correlation with higher cancellation rates, suggesting a lack of customer commitment at the point of order[cite: 198].
-* [cite_start]**Ineffective Discounts:** The analysis showed that the existing discount strategy was not working, as increasing discounts did not lead to a higher average order value[cite: 202].
+---
 
-## Files in this Folder
-* `Business Intelligence Assignment 3.docx`: The full project write-up.
-* `Assignment 3 BI.pbix`: The interactive Power BI dashboard file.
-* `Reduced_Pakistan_Ecommerce_Dataset.csv`: The cleaned dataset used.
+## 📊 Power BI Dashboard
+
+A Power BI dashboard was created to visually explore the data and uncover key trends in sales, cancellations, and refunds.
+
+![Power BI Dashboard](dashboard.png)
+
+---
+
+## 💾 Dataset
+
+The analysis is based on a comprehensive dataset of e-commerce transactions in Pakistan, originally containing half a million records from March 2016 to August 2018.
+
+* **Source**: [Pakistan's Largest Ecommerce Dataset on Kaggle](https://www.kaggle.com/datasets/zusmani/pakistans-largest-ecommerce-dataset/data)
+* **Data Cleaning**:
+    * Removed the last five columns due to null values.
+    * Eliminated empty rows.
+    * For manageability and focus, the dataset was trimmed to 102,292 rows.
+
+The cleaned and reduced dataset used for this analysis is available in this repository (`Reduced_Pakistan_Ecommerce_Dataset.csv`).
+
+---
+
+## 🛠️ Analysis & Tools
+
+The project involved an in-depth exploratory data analysis (EDA) and the creation of an interactive business intelligence dashboard.
+
+* **Languages & Libraries**: **Python** with Pandas for data manipulation and cleaning.
+* **Tools**: **Jupyter Notebook** for the EDA process (`pakistan-e-commerce-eda.ipynb`) and **Microsoft Power BI** for data visualization and dashboard creation.
+
+---
+
+## 📈 Key Insights
+
+The analysis of the order data revealed several critical trends:
+
+* **High Cancellation & Refund Rates**: A significant portion of orders result in cancellations or refunds, indicating a critical area for operational improvement.
+* **Payment Method Impact**: Cash on Delivery (COD) is a major contributor to order cancellations.
+* **Category-Specific Issues**: Certain product categories experience disproportionately high rates of cancellations and refunds.
+* **Effect of Discounts**: The effectiveness of store-wide discounts is questionable, as they may not be driving profitable sales.
+
+---
+
+## 💡 BI Recommendations
+
+Based on the analysis, the following data-driven strategies are recommended to mitigate losses and improve performance:
+
+1.  **Revise Payment Policies**: Introduce incentives for prepaid orders or revise policies for high-risk payment methods like COD to reduce cancellation rates.
+2.  **Targeted Interventions**: Develop focused strategies to manage the seasonal spikes in cancellations and refunds, such as proactive customer communication.
+3.  **Enhance Quality Assurance**: For categories with high refund rates, implement stricter quality checks and provide more accurate product descriptions to better align customer expectations.
+4.  **Reassess Discount Structures**: Move away from broad, store-wide promotions and adopt a more targeted discount strategy based on customer behavior and product performance.
+5.  **Improve Post-Sales Support**: Bolster customer service for high-value categories prone to refunds to build trust and satisfaction.
+6.  **Data-Driven Inventory Management**: Utilize sales and refund data to optimize stock levels, prioritizing high-performing products.
+7.  **Systematic Customer Feedback**: Implement a robust system to collect and analyze feedback from canceled and refunded orders to identify specific areas for improvement.
