@@ -29,27 +29,30 @@ The insights were visualized using a Power BI dashboard. Emphasis was placed on 
 
 ## 📈 Key Findings from the Dashboard
 
-The dashboard immediately highlights the core problems and key influential factors:
+Below is an overview of the main Power BI dashboard, followed by detailed insights into the key findings.
+
+![Main Dashboard Overview](images/dashboard_overview.jpeg)
+*A complete view of the Power BI dashboard, showcasing the key analyses and findings.*
 
 ### Key Performance Indicators (KPIs)
 
 The dashboard instantly surfaces the critical metrics: a **31.93% Dropout Rate** and an **Average GPA of 2.09**. These figures underscore the challenge and the need for interventions.
 
-![Dashboard KPIs](images/dashboard_kpis.png)
+![Dashboard KPIs](images/db_kpis.jpeg)
 *Snapshot of the dashboard's core performance indicators.*
 
 ### Scholarship and Marital Status Have a Major Impact
 
 The data clearly demonstrates that **scholarship holders have notably higher success rates** and are more likely to graduate. Additionally, **single students show the highest count of success**, strongly suggesting that marital obligations may be a barrier to academic performance for others.
 
-![Scholarship & Marital Status Charts](images/dashboard_scholarship_marital.png)
+![Scholarship & Marital Status Charts](images/db_scholarship_marital.jpeg)
 *Visualizations showing the effect of scholarships and marital status on student outcomes.*
 
 ### Parental Education is a Strong Predictor
 
 There is a strong positive correlation between a parent's education level and a student's success. Specifically, students whose fathers hold a **Bachelor's Degree demonstrate notably higher success rates** compared to those from backgrounds with lower parental education.
 
-![Parents' Education Effect Chart](images/dashboard_parental_education.png)
+![Parents' Education Effect Chart](images/db_parental_education.jpeg)
 *Chart illustrating the significant influence of parental education on student success.*
 
 ### Student Success by Application Mode
@@ -61,7 +64,7 @@ The application mode plays a critical role in student success, with first-phase 
 * **Change of Course:** Showed minimal success rates for this category.
 * **Technological Specialization:** Did not significantly impact success rates.
 
-*(Optional: If you have a dedicated screenshot for 'Application Mode', insert it here.)*
+*(Optional: If `WhatsApp Image 2024-05-22 at 1.28.46 PM.jpeg` or `WhatsApp Image 2024-05-22 at 1.28.54 PM.jpeg` specifically show the Application Mode chart, you can place it here after renaming.)*
 *Insight: The application mode significantly impacts student success, with first-phase applicants having higher success rates, especially among females.*
 
 ## 📝 Recommendations and Conclusion
@@ -78,4 +81,4 @@ Based on the analytical findings, the following recommendations are put forth to
 
 ### Conclusion
 
-Overall, while nearly half of the student population graduates, the significant dropout rates remain a pressing concern. This analysis successfully identified key factors—including application mode, scholarships, marital status, and parental education—that significantly impact student success. Implementing the recommended strategies can substantially enhance student support, reduce dropout rates, and improve overall academic success. Focusing on expanding scholarships, fostering parental involvement, and providing specific support for diverse student demographics will drive better outcomes for the institution.
+Overall, while nearly half of the student population graduates, the significant dropout rates remain a pressing concern. This analysis successfully identified key factors—including application mode, scholarships, marital status, and parental education—that significantly impact student success. Implementing the recommended strategies can substantially enhance student support, reduce dropout rates, and improve overall academic success. Focusing on expanding scholarships, fostering parental involvement, and specific support for diverse student demographics will drive better outcomes for the institution.
