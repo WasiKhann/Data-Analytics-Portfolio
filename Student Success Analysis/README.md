@@ -1,34 +1,58 @@
-# Analysis of Predictive Factors for Student Success
+# Student Success Analysis: Identifying Factors for Improved Outcomes
 
-A case study analyzing the factors that influence student success, with the goal of reducing a high dropout rate and improving graduation rates at an educational institution.
+This project is part of my data analytics portfolio, focusing on a case study to identify key factors influencing student success and dropout rates at an educational institution. The goal was to leverage data-driven insights to develop targeted interventions and improve overall academic outcomes.
 
-## Business Problem
-[cite_start]The institution faced a significant challenge with a dropout rate of 31.93% and a graduation rate of only 49.84%[cite: 299, 300]. My objective was to use data to identify the most influential factors driving these outcomes so that targeted and effective support programs could be developed.
+## 📊 Project Overview
 
-## My Analytical Approach
-My thought process was to test several hypotheses about what drives student success. I moved beyond simple enrollment numbers to analyze the statistical impact of various student attributes. My analysis focused on:
-1.  **Financial Factors:** Does financial aid (scholarships) play a role?
-2.  **Demographic Factors:** Do marital status or gender impact success?
-3.  **Academic Background:** Does the application channel or parental education level have a significant effect?
+The institution faced a significant challenge with a **dropout rate of 31.93%** and a **graduation rate of only 49.84%**. My objective was to analyze available student data to pinpoint the most influential factors contributing to these outcomes, thereby enabling the development of effective support programs to reduce dropouts and boost graduation rates.
 
-## Key Findings from the Dashboard
+## 💡 My Analytical Approach
 
-### Key Performance Indicators
-[cite_start]The dashboard immediately highlights the core problem with a **31.93% Dropout Rate** and an **Average GPA of 2.09**[cite: 300, 301].
+My thought process involved formulating and testing several hypotheses regarding the drivers of student success. I moved beyond simple enrollment figures to conduct a deeper statistical analysis of various student attributes. My analysis specifically focused on:
 
-# (Instruction: Insert your screenshot of the KPI boxes here)
+1.  **Financial Factors:** Investigating the impact of financial aid, specifically scholarships, on student success.
+2.  **Demographic Factors:** Examining how marital status and gender correlate with academic outcomes.
+3.  **Academic Background:** Analyzing the influence of the application channel and parental education level on student success.
 
-### Scholarship and Marital Status Have a Major Impact
-[cite_start]The data clearly shows that **scholarship holders have higher success rates** and are more likely to graduate[cite: 304, 306]. [cite_start]Additionally, **single students have the highest count of success**, suggesting that marital obligations may be a barrier to academic performance for others[cite: 308, 311].
+## 📈 Key Findings & Dashboard Insights
 
-# (Instruction: Insert your screenshot of the Scholarship treemap AND the Marital Status bar chart here. You can put them side-by-side or one after another.)
+The analysis highlighted several critical areas where interventions could have a significant impact. The insights were visualized using a Power BI dashboard (screenshots provided below).
 
-### Parental Education is a Strong Predictor
-There is a strong positive correlation between a parent's education level and a student's success. [cite_start]Students whose fathers hold a **Bachelor's Degree have notably higher success rates** compared to those from backgrounds with lower parental education[cite: 313, 315].
+### Key Performance Indicators (KPIs)
 
-# (Instruction: Insert your screenshot of the "Parents' Education Effect" chart here)
+The dashboard immediately reveals the core problem: a **31.93% Dropout Rate** and an **Average GPA of 2.09**. These metrics underscored the urgency for data-driven interventions.
 
-## Files in this Folder
-* `BI Final Exam Report.docx`: The detailed project report.
-* `Dashboard-KPIs.png`, `Dashboard-Charts.png`: Images of the final Power BI dashboard.
-* `Student_Success_Data_Cleaned.csv`: The dataset used for the analysis.
+![Dashboard KPIs](images/unnamed_KPIs.png)
+*Screenshot of the dashboard's Key Performance Indicators.*
+
+### Significant Impact of Scholarship and Marital Status
+
+The data clearly indicates that **scholarship holders have notably higher success rates** and are more likely to graduate. Furthermore, **single students demonstrate the highest success rates**, suggesting that marital obligations may pose a significant barrier to academic performance for others.
+
+| ![Scholarship Treemap](images/unnamed_Scholarship_Marital_Status.png) |
+|:----------------------------------------------------------------------:|
+| *Screenshot combining the Scholarship Treemap and Marital Status Bar Chart.* |
+
+### Parental Education as a Strong Predictor
+
+A strong positive correlation was observed between a parent's education level and a student's success. Specifically, students whose fathers hold a **Bachelor's Degree show remarkably higher success rates** compared to those from backgrounds with lower parental education levels.
+
+![Parents' Education Effect](images/unnamed_Parent_Education.png)
+*Screenshot illustrating the impact of parents' education on student success.*
+
+### Other Notable Insights (from report)
+
+* **Application Mode:** The first-phase general quota showed higher success rates, particularly among females.
+* **Gender:** While gender might not be a primary driver on its own, its interaction with other factors (like application mode) is noteworthy.
+
+## 📝 Recommendations and Conclusion
+
+Based on these findings, key recommendations include:
+
+* **Encourage Early Application:** Promote and facilitate early application processes.
+* **Increase Scholarship Availability:** Expand scholarship programs to support more students.
+* **Support for Married Students:** Provide additional resources for married students to help them balance responsibilities.
+* **Parental Engagement:** Encourage parental involvement and provide educational resources, especially for parents with lower educational backgrounds.
+* **Targeted Interventions:** Develop tailored support programs for students from less successful application modes and lower parental education backgrounds.
+
+This analysis concludes that nearly half of the student population graduates, but dropout rates remain a significant concern. Key factors identified—application mode, scholarships, marital status, and parental education—significantly impact student success. Implementing the recommended strategies can enhance student support, reduce dropout rates, and improve overall academic success.
