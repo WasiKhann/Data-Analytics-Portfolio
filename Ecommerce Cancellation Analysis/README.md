@@ -10,11 +10,13 @@ A Pakistani e-commerce company is experiencing a high rate of order cancellation
 
 ---
 
-## 📊 Power BI Dashboard
+## 📊 Interactive Power BI Dashboard
 
-A Power BI dashboard was created to visually explore the data and uncover key trends in sales, cancellations, and refunds.
+A live, interactive Power BI dashboard was created to explore the dataset and its key findings.
 
-![Power BI Dashboard](dashboard.png)
+**[➡️ View the Live Interactive Dashboard]([https://app.powerbi.com/view?r=eyJrIjoiODc4ZjM4YTQtMzIwYS00M2FmLThmZjUtNTI5ZjUzMTFkNmNlIiwidCI6ImZlZTNiOTE2LTAxYzEtNDk4Ny1hNjQ2LWUxOTM0MzJiOWVhYSIsImMiOjl9](https://app.powerbi.com/view?r=eyJrIjoiYmRlOWQ2MmMtZmQ5Ni00YTAxLTk4MDgtYjRhZjE3NjA1YTcyIiwidCI6ImZlZTNiOTE2LTAxYzEtNDk4Ny1hNjQ2LWUxOTM0MzJiOWVhYSIsImMiOjl9))**
+
+![Dashboard Preview](powerbi_dashboard_overview.png)
 
 ---
 
