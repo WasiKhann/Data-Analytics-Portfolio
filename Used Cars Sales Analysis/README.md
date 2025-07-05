@@ -10,7 +10,7 @@ The primary challenge addressed is the lack of clarity on optimal selling prices
 
 A live, interactive Power BI dashboard was created to explore the dataset and its key findings.
 
-**[➡️ View the Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODc4ZjM4YTQtMzIwYS00M2FmLThmZjUtNTI5ZjUzMTFkNmNlIiwidCI6ImZlZTNiOTE2LTAxYzEtNDk4Ny1hNjQ2LWUxOTM0MzJiOWVhYSIsImMiOjl9)**
+**[➡️ View the Live Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYmRlOWQ2MmMtZmQ5Ni00YTAxLTk4MDgtYjRhZjE3NjA1YTcyIiwidCI6ImZlZTNiOTE2LTAxYzEtNDk4Ny1hNjQ2LWUxOTM0MzJiOWVhYSIsImMiOjl9)**
 
 ![Dashboard Preview](olx_dashboard_preview.png)
 
